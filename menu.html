@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Menu - JK Cafe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h2>JK Cafe Menu</h2>
+    <a href="cart.html">🛒 View Cart</a>
+  </header>
+
+  <section class="menu slide-up">
+    <div class="item">
+      <h3>Espresso</h3>
+      <p>$2.50</p>
+      <button onclick="addToCart('Espresso', 2.5)">Add to Cart</button>
+    </div>
+    <div class="item">
+      <h3>Latte</h3>
+      <p>$3.00</p>
+      <button onclick="addToCart('Latte', 3.0)">Add to Cart</button>
+    </div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
